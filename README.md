@@ -4,6 +4,15 @@
 
 It's working:)
 
+```py
+def creating_coordinates_list():
+    coordinates_list = []
+    for link in coordinates_links:
+        coordinates_list.append(link.get("data-coordinates"))
+
+    return coordinates_list
+```
+
 Американская ассоциация маркетинга (AMA) в 1985 г. определила маркетинг как "...процесс планирования и воплощения замысла, ценообразование, продвижение и реализации идей, товаров и услуг посредством обмена, удовлетворяющего цели отдельных лиц и органицаций" [1]. 
 
 `print("Hello Git")`
